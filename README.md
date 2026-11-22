@@ -2,6 +2,8 @@
 
 A generative identity study: nine AI brand marks are sampled into a grid of light, quantized to **four discrete line weights**, and redrawn as a field of vertical strokes. The identity emerges from the field — not from a bitmap.
 
+![Identity, in lines. — nine AI brand marks rendered as a quantized field of four line weights](assets/preview.png)
+
 **Live demo:** https://chenyiming-aaa.github.io/quantized-line-field/
 
 The whole thing is **one self-contained `index.html`** — no libraries, no frameworks, no build step, no network requests, no external fonts. Open the file and it runs.
@@ -128,6 +130,7 @@ Any modern browser with Canvas 2D + `Path2D` (recent Chrome, Edge, Firefox, Safa
 ```
 .
 ├── index.html          # the entire site — self-contained
+├── assets/preview.png  # full-page preview shown above
 ├── assets/logos/       # original brand SVGs (provenance, LobeHub Icons MIT)
 ├── README.md
 ├── LICENSE             # MIT + third-party / trademark notices
